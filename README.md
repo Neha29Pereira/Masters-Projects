@@ -22,7 +22,7 @@ The 'sns.barplot(x=df["RiskLevel"],y=df["Age"])' this attribute creates a barplo
 The standard deviation has a higher value that is because the patients have an age span of 10 to 70 years. 
 # Model Training
 Random Forest Classifier Model:
-
+ The decision tree classifier is a powerful machine learning algorithm for solving classification problems.
 - Initialize Model:
   We initialize a Random Forest classifier model with 100 estimators and set the random state to 42.
 
@@ -47,7 +47,7 @@ Random Forest Classifier Model:
 The Random Tree Model achieved an accuracy of approximately 81.28%.
 
  Decision Tree Classifier Model:
- The decision tree classifier is a powerful machine learning algorithm for solving classification problems.
+  The decision tree classifier is a powerful machine learning algorithm for solving classification problems.
  
 - Initialize Decision Tree Model:
   The DecisionTreeClassifier model is initialized with a specified random state for reproducibility.
