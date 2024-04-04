@@ -1,8 +1,10 @@
+# Dataset Overview:
 In the Dataset, we are using a "Maternal Health Risk Dataset," and we found it from 'Kaggle' platform. 
 The dataset contains information of 1014 Patients. Altogether, the data has got seven columns for each of the patients. 
 Each patient has got the data consisting of their Age, Systolic BP (Blood Pressure), Diastolic BP (Blood Pressure), BS (Blood Sugar), Body Temperature, Heart Rate and Risk level.
 Most of the Data are Continuous Data in the dataset. A continuous Data is a dataset where the numericals are continuous in nature and can take on any value within a certain range.
-If the data had been collected directly from patients, it would have been collected in Numerical data type. A "Numerical data type" is described as the data types that are applied to represent numeric values. 
+If the data had been collected directly from patients, it would have been collected in Numerical data type. A "Numerical data type" is described as the data types that are applied to represent numeric values.
+# Code Explanation
 The “df.isnull().sum()” is a Pandas Series where each element represents the count of missing values in the corresponding column of the original Data Frame. 
 we have no null values present in the dataset. Hence, there is no data cleaning required for the dataset.
 The df.describe() method in Python's pandas library generates descriptive statistics for Numerical columns DataFrame. 
@@ -18,9 +20,9 @@ The 'sns.barplot(x=df["RiskLevel"],y=df["HeartRate"])' this attribute creates a 
 The 'sns.barplot(x=df["RiskLevel"],y=df["BS"])' this attribute creates a barplot to visualize the relationship between 'RiskLevel' and 'BS' stored in DataFrame 'df'.
 The 'sns.barplot(x=df["RiskLevel"],y=df["Age"])' this attribute creates a barplot to visualize the relationship between 'RiskLevel' and 'Age' stored in DataFrame 'df'.
 The standard deviation has a higher value that is because the patients have an age span of 10 to 70 years. 
-
+# Model Training
 Random Forest Classifier Model:
-# Code Explanation
+
 - Initialize Model:
   We initialize a Random Forest classifier model with 100 estimators and set the random state to 42.
 
@@ -46,7 +48,7 @@ The Random Tree Model achieved an accuracy of approximately 81.28%.
 
  Decision Tree Classifier Model:
  The decision tree classifier is a powerful machine learning algorithm for solving classification problems.
- # Code Explanation:
+ 
 - Initialize Decision Tree Model:
   The DecisionTreeClassifier model is initialized with a specified random state for reproducibility.
 
