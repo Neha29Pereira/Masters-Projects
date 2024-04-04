@@ -5,20 +5,35 @@ Each patient has got the data consisting of their Age, Systolic BP (Blood Pressu
 Most of the Data are Continuous Data in the dataset. A continuous Data is a dataset where the numericals are continuous in nature and can take on any value within a certain range.
 If the data had been collected directly from patients, it would have been collected in Numerical data type. A "Numerical data type" is described as the data types that are applied to represent numeric values.
 # Code Explanation
+
 The “df.isnull().sum()” is a Pandas Series where each element represents the count of missing values in the corresponding column of the original Data Frame. 
-we have no null values present in the dataset. Hence, there is no data cleaning required for the dataset.
+
+We have no null values present in the dataset. Hence, there is no data cleaning required for the dataset.
+
 The df.describe() method in Python's pandas library generates descriptive statistics for Numerical columns DataFrame. 
+
 The "df.shape" attribute is used for the purpose of obtaining the dimensions of a Data Frame. 
+
 The df.sample() method in Pandas is used to obtain a random sample of rows from a Data Frame and It returns a single random row.
+
 The 'df["HeartRate"].hist()' attribute generates a histogram to visualize the distribution of heart rates stored in "HeartRate" column of pandas DataFrame (df).
+
 The 'counts = df['RiskLevel'].value_counts()' attribute is used to calculate counts for each category.
+
 The 'plt.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90)' is used to create a pie chart.
+
 The 'plt.axis('equal')' attribute ensures that the piechart is drawn as a circle.
+
 The 'plt.show()' is used to display the chart.
+
 The 'df["RiskLevel"].value_counts()' this attribute counts the occurence of each value in the 'RiskLevel' column.
+
 The 'sns.barplot(x=df["RiskLevel"],y=df["HeartRate"])' this attribute creates a barplot to visualize the relationship between 'RiskLevel' and 'HeartRate' stored in dataFrame 'df'.
+
 The 'sns.barplot(x=df["RiskLevel"],y=df["BS"])' this attribute creates a barplot to visualize the relationship between 'RiskLevel' and 'BS' stored in DataFrame 'df'.
+
 The 'sns.barplot(x=df["RiskLevel"],y=df["Age"])' this attribute creates a barplot to visualize the relationship between 'RiskLevel' and 'Age' stored in DataFrame 'df'.
+
 The standard deviation has a higher value that is because the patients have an age span of 10 to 70 years. 
 # Model Training
 Random Forest Classifier Model:
