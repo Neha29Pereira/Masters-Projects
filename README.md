@@ -1,9 +1,14 @@
 # Dataset Overview:
 In the Dataset, we are using a "Maternal Health Risk Dataset," and we found it from 'Kaggle' platform. 
+
 The dataset contains information of 1014 Patients. Altogether, the data has got seven columns for each of the patients. 
+
 Each patient has got the data consisting of their Age, Systolic BP (Blood Pressure), Diastolic BP (Blood Pressure), BS (Blood Sugar), Body Temperature, Heart Rate and Risk level.
+
 Most of the Data are Continuous Data in the dataset. A continuous Data is a dataset where the numericals are continuous in nature and can take on any value within a certain range.
+
 If the data had been collected directly from patients, it would have been collected in Numerical data type. A "Numerical data type" is described as the data types that are applied to represent numeric values.
+
 # Code Explanation
 
 The “df.isnull().sum()” is a Pandas Series where each element represents the count of missing values in the corresponding column of the original Data Frame. 
