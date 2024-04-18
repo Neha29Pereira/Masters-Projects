@@ -1,4 +1,4 @@
-# Maternal Dataset 
+# Health Risk Dataset 
 In the Dataset, we are using a "Maternal Health Risk Dataset," and we found it from 'Kaggle' platform. 
 
 The dataset contains information of 1014 Patients. Altogether, the data has got seven columns for each of the patients. 
