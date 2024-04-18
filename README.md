@@ -1,9 +1,6 @@
 # Health Risk Dataset 
 
-# Acknowledgements
-The dataset is Retrieved from 'Kaggle'
-
-# Overview
+An overview of the dataset:
 
 This dataset consists of 1014 rows and 7 columns. In the dataset, each row represents an individual's health profile, and the columns contain the following information:
 
@@ -20,6 +17,10 @@ BodyTemp: Body temperature in degrees Fahrenheit.
 HeartRate: Heart rate in beats per minute.
 
 RiskLevel: Assigned risk level based on the individual's health parameters (e.g., high risk, low risk, mid risk).
+
+## Acknowledgements
+
+The dataset is Retrieved from 'Kaggle'
 
 # Dataset Usage:
 
