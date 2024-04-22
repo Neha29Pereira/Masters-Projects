@@ -27,6 +27,7 @@ The dataset is Retrieved from 'Kaggle'
 The dataset can be used for various purposes as following:
 
 - Exploratory data analysis : To understand the distribution and relationships between different health parameters.
+- ![EDA](https://github.com/Neha29Pereira/Masters-Projects/blob/main/EDA_maternity_NP.png)
 
 - Building predictive models : To predict health risk based on demographic and health-related features.
 
