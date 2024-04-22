@@ -26,11 +26,11 @@ The dataset is Retrieved from 'Kaggle'
 
 The dataset can be used for various purposes as following:
 
-Exploratory data analysis : To understand the distribution and relationships between different health parameters.
+- Exploratory data analysis : To understand the distribution and relationships between different health parameters.
 
-Building predictive models : To predict health risk based on demographic and health-related features.
+- Building predictive models : To predict health risk based on demographic and health-related features.
 
-Analyzing : To Analyse trends in health risk levels across different age groups or demographics.
+- Analyzing : To Analyse trends in health risk levels across different age groups or demographics.
 
 # File Description
 
