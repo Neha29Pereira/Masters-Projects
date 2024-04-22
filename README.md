@@ -4,19 +4,19 @@ An overview of the dataset:
 
 This dataset consists of 1014 rows and 7 columns. In the dataset, each row represents an individual's health profile, and the columns contain the following information:
 
-Age: Age of the individual in years.
+- Age: Age of the individual in years.
 
-SystolicBP: Systolic blood pressure reading in mmHg.
+- SystolicBP: Systolic blood pressure reading in mmHg.
 
-DiastolicBP: Diastolic blood pressure reading in mmHg.
+- DiastolicBP: Diastolic blood pressure reading in mmHg.
 
-BS: Blood sugar level in mg/dL.
+- BS: Blood sugar level in mg/dL.
 
-BodyTemp: Body temperature in degrees Fahrenheit.
+- BodyTemp: Body temperature in degrees Fahrenheit.
 
-HeartRate: Heart rate in beats per minute.
+- HeartRate: Heart rate in beats per minute.
 
-RiskLevel: Assigned risk level based on the individual's health parameters (e.g., high risk, low risk, mid risk).
+- RiskLevel: Assigned risk level based on the individual's health parameters (e.g., high risk, low risk, mid risk).
 
 ## Acknowledgements
 
